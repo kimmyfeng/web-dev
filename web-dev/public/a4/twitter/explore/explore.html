@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Practice</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+        <link href="explore.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class = "container">
+            <div class="row mt-2">
+                <div class="col-sm-2 col-lg-1 col-xl-2 mt-3">
+                    <div href="https://getbootstrap.com/docs/5.1/components/list-group/">
+                        <ul class="list-group">
+                            <li class="list-group-item"><i class="fab fa-twitter"></i></li>
+                            <li class="list-group-item">
+                                <i class="fa fa-home" style= "float: left"></i>
+                                <span class="ms-2 d-none d-xl-block" style ="float: right; margin-right: 90px" >Home</span>
+                            </li>
+                            <li class="list-group-item active"><i class="fas fa-hashtag" style= "float: left"></i><span class = "ms-2 d-none d-xl-block" style ="float: right; margin-right: 80px">Explore</span></li>
+                            <li class="list-group-item"><i class="fas fa-bell" style= "float: left"></i><span class = "ms-2 d-none d-xl-block" style ="float: right; margin-right: 45px">Notifications</span></li>
+                            <li class="list-group-item"><i class="fas fa-envelope" style= "float: left"></i><span class = "ms-2 d-none d-xl-block" style ="float: right; margin-right: 60px">Messages</span></li>
+                            <li class="list-group-item"><i class="fas fa-bookmark" style= "float: left"></i><span class = "ms-2 d-none d-xl-block" style ="float: right; margin-right: 55px">Bookmarks</span></li>
+                            <li class="list-group-item"><i class="fas fa-list" style= "float: left"></i><span class = "ms-2 d-none d-xl-block" style ="float: right; margin-right: 100px">Lists</span></li>
+                            <li class="list-group-item"><i class="fas fa-user" style= "float: left"></i><span class = "ms-2 d-none d-xl-block" style ="float: right; margin-right: 90px">Profile</span></li>
+                            <li class="list-group-item"><span class='fa-stack fa-lg' style="font-size: 0.7em; margin-left: -6px"><i class='fas fa-circle fa-stack-2x'></i><i class='fas fa-ellipsis-h fa-stack-1x fa-inverse' style= "float: left"></i>
+                            </span><span class = "ms-1 d-none d-xl-block" style ="float: right; margin-right: 98px">More</span></li>
+                        </ul>
+                        <button class="btn btn-primary override-bs">
+                            Tweet
+                        </button>
+                    </div>
+                </div>
+                <div class="col-sm-10 col-lg-7 col-xl-7 mt-3">
+                    <div class="row">
+                        <div class = "col-11">
+                            <div class = "position-relative">
+                                <div class="input-group col">
+                                    <input type="text" type="search" class="form-control rounded-pill" style="padding-left: 48px;" placeholder="Search Twitter">
+                                    <i class="fas fa-search" style="position:absolute; bottom:10px; left: 15px"></i>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-1">
+                            <i class = "fas fa-cog fa-2x col-8" style = "color: #1DA1F2"></i>
+                        </div>
+                        <div class = "mt-2">
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">For You</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Trending</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">News</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Sports</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Entertainment</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class = "mt-2">
+                            <div class="card" style="width: 100%;">
+                                <img src="SpaceX.jpg" class="card-img-top" alt="SpaceX">
+                                <div style="color: white; position: absolute; left:5px; top:420px; font-weight: bold; font-size:xxx-large">SpaceX's starship</div>
+                                    <div>
+                                        <ul class = "list-group">
+                                            <li class = "list-group-item">
+                                                <div class = "row">
+                                                    <div class = "col-10">
+                                                        <div class = "text-secondary">
+                                                            Web Development
+                                                        </div>
+                                                        <div>
+                                                            <span class = "fw-bold">
+                                                                ReactJS
+                                                            </span>
+                                                            <i class = "fas fa-check-circle"></i>
+                                                            <span class = "text-secondary"> - 2h</span>
+                                                        </div>
+                                                        <div class = "fw-bold">
+                                                            React.js is a component based front and library that makes it very easy build
+                                                            Single Page Application or SPAs
+                                                        </div>
+                                                    </div>
+                                                    <div class = "col-2">
+                                                        <img class = "rounded mw-100"
+                                                             src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjSYQ6aOl9N3p4OFWQ83MvauD86Vz53AnIDA&usqp=CAU">
+                                                    </div>
+                                                </div>        
+                                            </li>
+                                        </ul>
+                                        <ul class="list-group">
+                                            <li class="list-group-item">
+                                                <div class="row">
+                                                    <div class="col-10">
+                                                        <div>
+                                                            <span class="fw-bold">
+                                                                JavaScript
+                                                            </span>
+                                                            <i class="fas fa-check-circle"></i>
+                                                            <span class="text-secondary"> - 2h</span>
+                                                        </div>
+                                                        <div class="fw-bold">
+                                                            JavaScript is programming language that can run on browsers as well as desktops
+                                                        </div>
+                                                        <div class="text-secondary">
+                                                            123K Tweets
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2">
+                                                        <img class="rounded mw-100"
+                                                            src="data:image/png;base64,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">
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <ul class="list-group">
+                                            <li class="list-group-item">
+                                                <div class="row">
+                                                    <div class="col-10">
+                                                        <div class="text-secondary">
+                                                            Web Development
+                                                        </div>
+                                                        <div>
+                                                            <span class="fw-bold">
+                                                                JQuery
+                                                            </span>
+                                                        </div>
+                                                        <div class="text-secondary">
+                                                            123K Tweets
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2">
+                                                        <img class="rounded mw-100"
+                                                            src="https://openjsf.org/wp-content/uploads/sites/84/2019/10/jquery-logo-vertical_large_square.png">
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <ul class="list-group">
+                                            <li class="list-group-item">
+                                                <div class="row">
+                                                    <div class="col-10">
+                                                        <div class="text-secondary">
+                                                            Web Development
+                                                        </div>
+                                                        <div>
+                                                            <span class="fw-bold">
+                                                                NodeJS
+                                                            </span>
+                                                            <i class="fas fa-check-circle"></i>
+                                                            <span class="text-secondary"> - 2h</span>
+                                                        </div>
+                                                        <div class="text-secondary">
+                                                            123K Tweets
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2">
+                                                        <img class="rounded mw-100"
+                                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfOfptrC48Ggz3JC23XVvfUc6qPqMrkrGGZ5ajLqLDARAP15-8lnl4ETCV_BNdMoW7TjU&usqp=CAU">
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 d-none d-lg-block mt-3">
+                        <div class = "row ms-0">
+                            <div class="list-group">
+                                <li class="list-group-item fw-bold">Who to follow</li>
+                                <li class="list-group-item">
+                                    <div class="row">
+                                        <div class="col-2 col-xl-2 col-lg-3 m-xl-0 p-xl-0">
+                                            <img class="wd-rounded"
+                                                src="data:image/png;base64,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">
+                                        </div>
+                                        <div class="col-7 col-xl-7 col-lg-5">
+                                            <span class = "pl-lg-0 ml-lg-0" style="white-space: nowrap;">
+                                                <b class = "fw-bold">Java</b>
+                                                <i class = "fas fa-check-circle"></i>
+                                            </span>
+                                            <div class="fw-bold">
+                                                <span class="text-secondary">@Java</span>
+                                            </div>
+                                        </div>
+                                        <div class = "col-3 col-xl-3 col-lg-4">
+                                            <button class="btn btn-primary override">
+                                                follow
+                                            </button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="row">
+                                        <div class="col-2 col-xl-2 col-lg-3 m-xl-0 p-xl-0">
+                                            <img class="wd-rounded"
+                                                src="data:image/png;base64,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">
+                                        </div>
+                                        <div class="col-7 col-xl-7 col-lg-5">
+                                            <span class="pl-lg-0 ml-lg-0" style="white-space: nowrap;">
+                                                <b class="fw-bold">Relativity Space</b>
+                                                <i class="fas fa-check-circle"></i>
+                                            </span>
+                                            <div class="fw-bold">
+                                                <span class="text-secondary">@Relativityspace</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-3 col-xl-3 col-lg-4">
+                                            <button class="btn btn-primary override">
+                                                follow
+                                            </button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="row">
+                                        <div class="col-2 col-xl-2 col-lg-3 m-xl-0 p-xl-0">
+                                            <img class="wd-rounded"
+                                                src="https://www.c-r-y.org.uk/wp-content/uploads/2016/10/Virgin-logo.png">
+                                        </div>
+                                        <div class="col-7 col-xl-7 col-lg-5">
+                                            <span class="pl-lg-0 ml-lg-0" style="white-space: nowrap;">
+                                                <b class="fw-bold">Virgin Galactic</b>
+                                                <i class="fas fa-check-circle"></i>
+                                            </span>
+                                            <div class="fw-bold">
+                                                <span class="text-secondary">@Virgingalactic</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-3 col-xl-3 col-lg-4">
+                                            <button class="btn btn-primary override">
+                                                follow
+                                            </button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="row">
+                                        <div class="col-2 col-xl-2 col-lg-3 m-xl-0 p-xl-0">
+                                            <img class="wd-rounded" src="https://bossierpress.com/wp-content/uploads/2021/03/unnamed.jpg">
+                                        </div>
+                                        <div class="col-7 col-xl-7 col-lg-5">
+                                            <span class="pl-lg-0 ml-lg-0" style="white-space: nowrap;">
+                                                <b class="fw-bold">NASA</b>
+                                                <i class="fas fa-check-circle"></i>
+                                            </span>
+                                            <div class="fw-bold">
+                                                <span class="text-secondary">@NASA</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-3 col-xl-3 col-lg-4">
+                                            <button class="btn btn-primary override">
+                                                follow
+                                            </button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="row">
+                                        <div class="col-2 col-xl-2 col-lg-3 m-xl-0 p-xl-0">
+                                            <img class="wd-rounded" src="https://businessbrainz.com/wp-content/uploads/2021/08/Tesla-LOGO.png">
+                                        </div>
+                                        <div class="col-7 col-xl-7 col-lg-5">
+                                            <span class="pl-lg-0 ml-lg-0" style="white-space: nowrap;">
+                                                <b class="fw-bold">Tesla</b>
+                                                <i class="fas fa-check-circle"></i>
+                                            </span>
+                                            <div class="fw-bold">
+                                                <span class="text-secondary">@Tesla</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-3 col-xl-3 col-lg-4">
+                                            <button class="btn btn-primary override">
+                                                follow
+                                            </button>
+                                        </div>
+                                    </div>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div> 
+    </body>
+</html>
+

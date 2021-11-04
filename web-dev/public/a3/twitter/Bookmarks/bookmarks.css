@@ -1,0 +1,120 @@
+.wd-magnifying-glass{
+    position: absolute;
+    left: 30px;
+}
+.wd-configuration{
+    color:rgb(29,161,242);
+    padding-left: 12px;
+}
+.wd-search-twitter{
+    color:white;
+    background-color: rgb(152,152,152);
+    border-radius: 25px;    
+    border-style: none; 
+    padding: 5px;
+    padding-left: 31px; 
+    width: 920px;
+    margin-left: 2px;
+}
+.wd-row {
+    width: 60%;
+    display: flex;
+}
+.wd-block {
+    margin-left:65px;
+    width:150px;
+    height: 0px
+}
+.wd-size{
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+    padding: 16px;
+}
+.wd-mark {
+    color:rgb(29,161,242);
+    font-size: 15px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 16px;
+    text-decoration-style: solid;
+    padding: 16px;
+    padding-bottom: 13px;
+    margin-left: -10px;
+}
+.wd-size1{
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+    margin-left: 5px;
+    margin-top: -5px;
+}
+.wd-size2{
+    font-size: 25px;
+    color: white;
+    margin-left: 5px;
+    margin-top: -10px;
+    font-weight: bold;
+}
+.wd-size3{
+    font-size: 13px;
+    color: white;
+    margin-left: 5px;
+    margin-top: -10px;
+    font-weight: bold;
+}
+
+.wd-float-right {
+    float: right;
+}
+
+p#id-selector-1 {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+    margin-left: -90px;
+    margin-top: 30px;
+    text-align: left;
+    float: left;
+}
+p#id-selector-2 {
+    font-size: 13px;
+    color: white;
+    margin-left: 80px;
+    margin-top: -60px;
+    text-align: left;
+    float: left;
+}
+p#id-selector-3 {
+    font-size: 13px;
+    color: white;
+    margin-left: -45px;
+    margin-top: -50px;
+    font-weight: bold;
+    text-align: left;
+    float: left;
+}
+p#id-selector-4 {
+    font-size: 20px;
+    color:lightgrey;
+    margin-left: -20px;
+    margin-top: -25px;
+    text-align: left;
+    float: left;
+    font-weight: bold;
+}
+.wd-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 48px;
+    text-align: left;
+    float: left;
+    margin-left: -60px;
+    margin-top: -55px;
+}
+.wd-content {
+    color:grey;
+    text-align: right;
+    float: right;
+    margin-right: -40px;
+    margin-top: -50px;
+}
+
+

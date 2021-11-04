@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Challenge</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+    <link href="explore.css" rel="stylesheet" />
+    
+</head>
+
+<body class = "body">
+    <div class="container">
+        <div class="row mt-2">
+            <div class="col-sm-2 col-lg-1 col-xl-2 mt-3">
+                <div href="https://getbootstrap.com/docs/5.1/components/list-group/">
+                    <ul class="list-group">
+                        <li class="list-group-item body"><i class="fab fa-twitter" style = "color: lightgrey"></i></li>
+                        <li class="list-group-item body">
+                            <i class="fa fa-home" style="float: left; color: lightgrey"></i>
+                            <span class="ms-2 d-none d-xl-block" style="float: right; margin-right: 90px; color:lightgrey;">Home</span>
+                        </li>
+                        <li class="list-group-item body"><i class="fas fa-hashtag" style="float: left; color: lightgrey"></i><span
+                                class="ms-2 d-none d-xl-block" style="float: right; margin-right: 80px; color: lightgrey;">Explore</span>
+                        </li>
+                        <li class="list-group-item body"><i class="fas fa-bell" style="float: left; color:lightgrey"></i><span
+                                class="ms-2 d-none d-xl-block"
+                                style="float: right; margin-right: 45px; color:lightgrey">Notifications</span></li>
+                        <li class="list-group-item body"><i class="fas fa-envelope" style="float: left; color:lightgrey"></i><span
+                                class="ms-2 d-none d-xl-block" style="float: right; margin-right: 60px; color:lightgrey">Messages</span>
+                        </li>
+                        <li class="list-group-item body"><i class="fas fa-bookmark" style="float: left; color:lightgrey"></i><span
+                                class="ms-2 d-none d-xl-block" style="float: right; margin-right: 55px; color:lightgrey">Bookmarks</span>
+                        </li>
+                        <li class="list-group-item body"><i class="fas fa-list" style="float: left; color:lightgrey"></i><span
+                                class="ms-2 d-none d-xl-block" style="float: right; margin-right: 100px; color:lightgrey">Lists</span>
+                        </li>
+                        <li class="list-group-item body"><i class="fas fa-user" style="float: left; color:lightgrey"></i><span
+                                class="ms-2 d-none d-xl-block" style="float: right; margin-right: 90px; color:lightgrey">Profile</span>
+                        </li>
+                        <li class="list-group-item body"><span class='fa-stack fa-lg'
+                                style="font-size: 0.7em; margin-left: -6px;"><i class='fas fa-circle fa-stack-2x'></i><i
+                                    class='fas fa-ellipsis-h fa-stack-1x fa-inverse' style="float: left;"></i>
+                            </span><span class="ms-1 d-none d-xl-block"
+                                style="float: right; margin-right: 98px; color:lightgrey">More</span></li>
+                    </ul>
+                    <button class="btn btn-primary override-bs">
+                        Tweet
+                    </button>
+                </div>
+            </div>
+            <div class="col-sm-10 col-lg-7 col-xl-7 mt-3">
+                    <div class="mt-2">
+                        <div class="card body" style="width: 100%; border-color: grey;">
+                            <div class="row mt-2">
+                                <div class="col-11">
+                                    <div class="position-relative ms-2">
+                                        <div class="input-group col" style="color:grey">
+                                            <input type="text" type="search" class="form-control rounded-pill"
+                                                style="padding-left: 48px; border-color:rgb(47, 51, 54); background-color: rgb(47, 51, 54);"
+                                                placeholder="Search Twitter">
+                                            <i class="fas fa-search" style="position:absolute; bottom:10px; left: 15px;"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-1">
+                                    <i class="fas fa-cog fa-2x col-8" style="color: lightgrey; font-size: large; margin-top: 10px;"></i>
+                                </div>
+                                <div class="mt-2">
+                                    <div class="wd-row">
+                                        <div class="wd-block">
+                                            <h3 class="wd-size">For you</h3>
+                                        </div>
+                                        <div class="wd-block">
+                                            <h3 class="wd-size">Trending</h3>
+                                        </div>
+                                        <div class="wd-block">
+                                            <h3 class="wd-size">COVID-19</h3>
+                                        </div>
+                                        <div class="wd-block">
+                                            <h3 class="wd-size">News</h3>
+                                        </div>
+                                        <div class="wd-block">
+                                            <h3 class="wd-size">Sports</h3>
+                                        </div>
+                                        <div class="wd-block">
+                                            <h3 class="wd-size wd-mark">Entertainment</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            <img src="data:image/jpeg;base64,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" class="card-img-top" alt="SpaceX">
+                            <div style="color: white; position: absolute; left:-5px; top:440px; font-size:medium">
+                                Travel - Last Night</div>
+                            <div>
+                            <div
+                                style="color: white; position: absolute; left:5px; top:450px; font-weight: bold; font-size:xxx-large">
+                                Beautiful Scenary</div>
+                            <div>
+                                <ul class="list-group">
+                                    <li class="list-group-item body">
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <div class="text-secondary" style="font-weight:bold; ">
+                                                    Trending in R&B & soul
+                                                </div>
+                                                <div>
+                                                    <span class="fw-bold" style = "color:lightgrey">
+                                                        R Kelly
+                                                    </span>
+                                                </div>
+                                                <div class="text-secondary" style="font-weight:bold;">
+                                                    18.2K Tweets
+                                                </div>
+                                            </div>
+                                            <div class="col-2">
+                                                <div class="text-secondary" style="font-weight:bold;float: right">
+                                                    ...
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="list-group">
+                                    <li class="list-group-item body"> 
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <div class="text-secondary" style="font-weight:bold;">
+                                                    Trending in R&B & soul
+                                                </div>
+                                                <div>
+                                                    <span class="fw-bold" style="color:lightgrey">
+                                                        Chloe
+                                                    </span>
+                                                </div>
+                                                <div class="text-secondary" style="font-weight:bold;">
+                                                    Trending with <span style = "color:#1DA1F2">Halle</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-2">
+                                                <div class="text-secondary" style="font-weight:bold;float: right">
+                                                    ...
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="list-group">
+                                    <li class="list-group-item body">
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <div class="text-secondary fw-bold">
+                                                    <i class="fas fa-text" style = "color: lightgrey">T</i>
+                                                    <span style ="color: lightgrey">The Times</span>
+                                                <i class="fas fa-check-circle" style = "color: lightgrey"></i>
+                                                <span>. September 24, 2021</span>    
+                                                </div>
+                                                
+                                                <div>
+                                                    <span class="fw-bold" style = "color: lightgrey">
+                                                        Stanley Tucci:'Food or sex? That's the cruellest question...'
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-2">
+                                                <img class="rounded mw-100"
+                                                    src="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg">
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="list-group">
+                                    <li class="list-group-item body">
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <div class="text-secondary fw-bold">
+                                                    <i class="fas fa-text" style="color: lightgrey">L</i>
+                                                    <span style="color: lightgrey">Lei Feng</span>
+                                                    <i class="fas fa-check-circle" style="color: lightgrey"></i>
+                                                    <span>. October 11, 2021</span>
+                                                </div>
+                                    
+                                                <div>
+                                                    <span class="fw-bold" style="color: lightgrey">
+                                                        I am the fan of NBA...
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-2">
+                                                <img class="rounded mw-100" src="https://hoopshype.com/wp-content/uploads/sites/92/2021/09/75th_year_nba.png">
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 d-none d-lg-block mt-3">
+            <div class="row ms-0">
+                <div class="list-group" style = "border-radius: 20px;;">
+                    <li class="list-group-item fw-bold" style = "background-color: rgb(47, 51, 54); color: lightgrey">Who to follow</li>
+                    <li class="list-group-item" style = "background-color: rgb(47, 51, 54)">
+                        <div class="row">
+                            <div class="col-2 col-xl-2 col-lg-3 m-xl-0 p-xl-0">
+                                <img class="wd-rounded"
+                                    src="data:image/png;base64,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">
+                            </div>
+                            <div class="col-7 col-xl-7 col-lg-5">
+                                <span class="pl-lg-0 ml-lg-0" style="white-space: nowrap;">
+                                    <b class="fw-bold" style ="color: lightgrey" >The Babylon Bee</b>
+                                    <i class="fas fa-check-circle" style ="color: lightgrey"></i>
+                                </span>
+                                <div class="fw-bold">
+                                    <span class="text-secondary">@TheBabylonBee</span>
+                                </div>
+                            </div>
+                            <div class="col-3 col-xl-3 col-lg-4">
+                                <button class="btn btn-primary override">
+                                    follow
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item" style = "background-color: rgb(47, 51, 54);">
+                        <div class="row">
+                            <div class="col-2 col-xl-2 col-lg-3 m-xl-0 p-xl-0">
+                                <img class="wd-rounded"
+                                    src="data:image/png;base64,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">
+                            </div>
+                            <div class="col-7 col-xl-7 col-lg-5">
+                                <span class="pl-lg-0 ml-lg-0" style="white-space: nowrap;">
+                                    <b class="fw-bold" style ="color: lightgrey">Relativity Space</b>
+                                    <i class="fas fa-check-circle" style ="color: lightgrey"></i>
+                                </span>
+                                <div class="fw-bold">
+                                    <span class="text-secondary">@Relativityspace</span>
+                                </div>
+                            </div>
+                            <div class="col-3 col-xl-3 col-lg-4">
+                                <button class="btn btn-primary override">
+                                    follow
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item" style = "background-color: rgb(47, 51, 54);">
+                        <div class="row">
+                            <div class="col-2 col-xl-2 col-lg-3 m-xl-0 p-xl-0">
+                                <img class="wd-rounded"
+                                    src="https://www.c-r-y.org.uk/wp-content/uploads/2016/10/Virgin-logo.png">
+                            </div>
+                            <div class="col-7 col-xl-7 col-lg-5">
+                                <span class="pl-lg-0 ml-lg-0" style="white-space: nowrap;">
+                                    <b class="fw-bold" style ="color: lightgrey">Virgin Galactic</b>
+                                    <i class="fas fa-check-circle" style ="color: lightgrey"></i>
+                                </span>
+                                <div class="fw-bold">
+                                    <span class="text-secondary">@Virgingalactic</span>
+                                </div>
+                            </div>
+                            <div class="col-3 col-xl-3 col-lg-4">
+                                <button class="btn btn-primary override">
+                                    follow
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item" style = "background-color: rgb(47, 51, 54);">
+                        <div class="row">
+                            <div class="col-2 col-xl-2 col-lg-3 m-xl-0 p-xl-0">
+                                <img class="wd-rounded" src="https://bossierpress.com/wp-content/uploads/2021/03/unnamed.jpg">
+                            </div>
+                            <div class="col-7 col-xl-7 col-lg-5">
+                                <span class="pl-lg-0 ml-lg-0" style="white-space: nowrap;">
+                                    <b class="fw-bold" style ="color: lightgrey">NASA</b>
+                                    <i class="fas fa-check-circle" style ="color: lightgrey"></i>
+                                </span>
+                                <div class="fw-bold">
+                                    <span class="text-secondary">@NASA</span>
+                                </div>
+                            </div>
+                            <div class="col-3 col-xl-3 col-lg-4">
+                                <button class="btn btn-primary override">
+                                    follow
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item" style = "background-color: rgb(47, 51, 54);">
+                        <div class="row">
+                            <div class="col-2 col-xl-2 col-lg-3 m-xl-0 p-xl-0">
+                                <img class="wd-rounded"
+                                    src="https://businessbrainz.com/wp-content/uploads/2021/08/Tesla-LOGO.png">
+                            </div>
+                            <div class="col-7 col-xl-7 col-lg-5">
+                                <span class="pl-lg-0 ml-lg-0" style="white-space: nowrap;">
+                                    <b class="fw-bold" style ="color: lightgrey">Tesla</b>
+                                    <i class="fas fa-check-circle" style ="color: lightgrey"></i>
+                                </span>
+                                <div class="fw-bold">
+                                    <span class="text-secondary">@Tesla</span>
+                                </div>
+                            </div>
+                            <div class="col-3 col-xl-3 col-lg-4">
+                                <button class="btn btn-primary override">
+                                    follow
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item" style="background-color: rgb(47, 51, 54);">
+                        <div class="row">
+                            <div class="col-7 col-xl-7 col-lg-5">
+                                <span class="pl-lg-0 ml-lg-0" style="white-space: nowrap; color:#1DA1F2">
+                                    Show more
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

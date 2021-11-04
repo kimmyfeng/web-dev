@@ -1,0 +1,59 @@
+.body{
+  background: black;
+}
+
+a > i{
+  padding-right:10px;
+}
+.btn-primary.override-bs {
+    background-color:#1DA1F2;
+    border-color:#1DA1F2;
+    margin-top: 20px;
+    width: 100%;
+    display: center;    
+    border-radius: 20px;
+    font-weight: bolder;
+}
+.btn-primary.override {
+    background-color: white;
+    color: black;
+    margin-top: 5px;
+    width: 80px;
+    display: center;    
+    border-radius: 20px;
+    font-weight: bolder;
+    margin-left: -25px;
+    border-color: white;
+}
+.wd-spacex{
+    border-width: 40px;
+}
+.wd-rounded{
+    border-radius: 60%;
+    width: 40px;
+    margin-left: 10px;
+}
+.wd-row {
+    width: 105%;
+    display: flex;
+}
+.wd-block {
+    width: 125px;
+    height: 50px
+}
+.wd-size{
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+    padding: 16px;
+}
+.wd-mark {
+    text-decoration-color: #1DA1F2;
+    font-size: 15px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 6px;
+    text-underline-offset: 12px;
+    text-decoration-style: solid;
+    padding: 16px;
+    padding-bottom: 13px;
+    margin-left: -10px;
+}
