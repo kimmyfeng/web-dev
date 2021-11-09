@@ -1,16 +1,14 @@
 const NavigationSidebar = (active) => {
     return (`
-        <div class = "container">
-        
             <div class="list-group">
                 <a class="list-group-item" href="#">
                     <i class="fab fa-twitter"></i>
                 </a>
-                <a class="list-group-item ${active === 'home' ? 'active' : ''}" href="../HomeScreen/index.html"> 
+                <a class="list-group-item ${active === 'home' ? 'active' : ''}" href="../HomeScreen/home.html"> 
                     <i class="fa fa-home"></i>
                     <span class = "d-none d-xl-inline">Home</span>
                 </a>
-                <a class="list-group-item ${active === 'explore' ? 'active' : ''}" href="../ExploreScreen/index.html">
+                <a class="list-group-item ${active === 'explore' ? 'active' : ''}" href="../ExploreScreen/explore.html">
                     <i class="fa fa-hashtag"></i>
                     <span class = "d-none d-xl-inline">Explore</span>
                 </a>
@@ -43,7 +41,6 @@ const NavigationSidebar = (active) => {
             <button class="btn btn-primary override-bs">
                 Tweet
             </button>
-        </div>
     `);
 }
 export default NavigationSidebar;
