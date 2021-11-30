@@ -1,47 +1,57 @@
-const NavigationSidebar = (active) => {
-    return (`
-            <div class="list-group">
-                <a class="list-group-item" href="#">
-                    <i class="fab fa-twitter"></i>
+import React from "react";
+import {Link} from "react-router-dom";
+
+const NavigationSidebar = ({active = 'explore'}) => {
+    const isActive = (active, path) => `list-group-item ${active === path ? 'active' : ''}`
+    return (
+        <div>
+
+            <div className="list-group">
+                <Link to="/a6/"
+                      className="list-group-item">
+                    <i className="fab fa-twitter"></i>
+                </Link>
+                <Link to="/a6/twitter/home"
+                    className={isActive(active, 'home')} href="../HomeScreen/index.html">
+                    <i className="fa fa-home"></i>
+                    <span className= "d-none d-xl-inline">Home</span>
+                </Link>
+                <Link to="/a6/twitter/explore"
+                    className={isActive(active, 'explore')} href="../ExploreScreen/index.html">
+                    <i className="fa fa-hashtag"></i>
+                    <span className= "d-none d-xl-inline">Explore</span>
+                </Link>
+                <a className="list-group-item" href="#">
+                    <i className="fa fa-bell"></i>
+                    <span className= "d-none d-xl-inline" style = {{"float": "right"}} style ={{"margin-right": "-10px"}}>Notifications</span>
                 </a>
-                <a class="list-group-item ${active === 'home' ? 'active' : ''}" href="../HomeScreen/home.html"> 
-                    <i class="fa fa-home"></i>
-                    <span class = "d-none d-xl-inline">Home</span>
+                <a className="list-group-item" href="#">
+                    <i className="fa fa-envelope"></i>
+                    <span className= "d-none d-xl-inline">Messages</span>
                 </a>
-                <a class="list-group-item ${active === 'explore' ? 'active' : ''}" href="../ExploreScreen/explore.html">
-                    <i class="fa fa-hashtag"></i>
-                    <span class = "d-none d-xl-inline">Explore</span>
+                <a className="list-group-item " href="#">
+                    <i className="fa fa-bookmark"></i>
+                    <span className= "d-none d-xl-inline">Bookmarks</span>
                 </a>
-                <a class="list-group-item" href="#">
-                    <i class="fa fa-bell"></i>
-                    <span class = "d-none d-xl-inline" style ="float: right; margin-right: -10px">Notifications</span>
+                <a className="list-group-item" href="#">
+                    <i className="fa fa-list"></i>
+                    <span className= "d-none d-xl-inline">Lists</span>
                 </a>
-                <a class="list-group-item" href="#">
-                    <i class="fa fa-envelope"></i>
-                    <span class = "d-none d-xl-inline">Messages</span>
+                <a className="list-group-item" href="#">
+                    <i className="fa fa-user"></i>
+                    <span className= "d-none d-xl-inline">Profile</span>
                 </a>
-                <a class="list-group-item " href="#">
-                    <i class="fa fa-bookmark"></i>
-                    <span class = "d-none d-xl-inline">Bookmarks</span>
-                </a>
-                <a class="list-group-item" href="#">
-                    <i class="fa fa-list"></i>
-                    <span class = "d-none d-xl-inline">Lists</span>
-                </a>
-                <a class="list-group-item" href="#">
-                    <i class="fa fa-user"></i>
-                    <span class = "d-none d-xl-inline">Profile</span>
-                </a>
-                <a class="list-group-item" href="#">
-                    <i class="fa fa-circle"></i>
-                    <span class = "d-none d-xl-inline">More</span>
+                <a className="list-group-item" href="#">
+                    <i className="fa fa-circle"></i>
+                    <span className= "d-none d-xl-inline">More</span>
                 </a>
             </div>
-           
-            <button class="btn btn-primary override-bs">
+
+            <div className="btn btn-primary override-bs">
                 Tweet
-            </button>
-    `);
+            </div>
+        </div>
+    );
 }
 export default NavigationSidebar;
 
