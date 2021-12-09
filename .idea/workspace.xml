@@ -2,6 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f07cfe7-1a33-4bdd-916d-34e865e01afc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/bg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a6/Build/NavigationSidebar/.Rhistory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/ExploreScreen/ExploreComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/ExploreScreen/ExploreScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/ExploreScreen/SpaceX.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/ExploreScreen/explore.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/ExploreScreen/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/HomeScreen/HomeScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/HomeScreen/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/HomeScreen/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/NavigationSidebar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/Post/PostItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/Post/PostList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/Post/post1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/PostSummaryList/PostSummaryItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/PostSummaryList/PostSummaryList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/PostSummaryList/post.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/ProfileScreen/Profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/ProfileScreen/Profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/ProfileScreen/ProfileEdit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/ProfileScreen/ProfileEdit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/ProfileScreen/ProfileScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/TweetList/TweetList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/TweetList/TweetListItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/TweetList/tweets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/WhatsHappening/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/WhoToFollowList/WhoToFollowList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/WhoToFollowList/WhoToFollowListItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/WhoToFollowList/who-to-follow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/WhoToFollowList1/WhoToFollowList1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/WhoToFollowList1/WhoToFollowListItem1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/WhoToFollowList1/who1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Build/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/HelloWorld.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Practice/Classes/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Practice/Classes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Practice/ConditionalOutput/ConditionalOutputIfElse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Practice/ConditionalOutput/ConditionalOutputInline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Practice/ConditionalOutput/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Practice/ReduxExamples/components/HelloReduxExampleComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Practice/ReduxExamples/components/Todos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Practice/ReduxExamples/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Practice/ReduxExamples/reducers/hello.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Practice/ReduxExamples/reducers/todos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Practice/Styles/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Practice/Todo/TodoItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Practice/Todo/TodoList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Practice/Todo/todos.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/a7/Practice/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/data/profile.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/data/tweets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/data/who.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/tweets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/who.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-dev" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.bin/node-which" beforeDir="false" />
@@ -5766,16 +5825,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/reducers/who.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/reducers/profile.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/components/a7/Build/WhoToFollowList/WhoToFollowList.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/components/a7/Build/NavigationSidebar/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/App.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/reducers/data/who.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/a7/Build/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/reducers/who.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/a7/Build/WhoToFollowList/WhoToFollowList.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/reducers/tweets.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/App.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/reducers/profile.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="222GbO0UinngHJFQpyj0cx0RUTz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -5807,6 +5867,7 @@
       <updated>1639028340242</updated>
       <workItem from="1639028343505" duration="361000" />
       <workItem from="1639028711755" duration="2453000" />
+      <workItem from="1639035369875" duration="308000" />
     </task>
     <servers />
   </component>
