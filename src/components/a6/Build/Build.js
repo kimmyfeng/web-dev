@@ -1,3 +1,6 @@
+import './vendors/bootstrap/css/bootstrap.min.css';
+import './vendors/bootstrap/bootstrap.min.css';
+import './vendors/fontawesome/css/all.min.css';
 import React from "react";
 import {Link} from "react-router-dom";
 import ExploreScreen from "./ExploreScreen/ExploreScreen";
