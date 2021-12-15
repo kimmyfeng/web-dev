@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="2f07cfe7-1a33-4bdd-916d-34e865e01afc" name="Changes" comment="a7 minor change">
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
+=======
+    <list default="true" id="2f07cfe7-1a33-4bdd-916d-34e865e01afc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> ef7b3d0db93898a22a2bca42bcc97793fd091b8b
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +61,10 @@
       <workItem from="1639028343505" duration="361000" />
       <workItem from="1639028711755" duration="2453000" />
       <workItem from="1639035369875" duration="757000" />
+<<<<<<< HEAD
       <workItem from="1639260791439" duration="531000" />
+=======
+>>>>>>> ef7b3d0db93898a22a2bca42bcc97793fd091b8b
     </task>
     <task id="LOCAL-00001" summary="a7 minor change">
       <created>1639261002705</created>
